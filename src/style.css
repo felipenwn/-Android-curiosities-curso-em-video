@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(180deg,
+            hsl(147deg 67% 54%) 0%,
+            hsl(147deg 57% 50%) 13%,
+            hsl(147deg 56% 47%) 23%,
+            hsl(147deg 56% 43%) 32%,
+            hsl(147deg 56% 39%) 40%,
+            hsl(147deg 56% 36%) 48%,
+            hsl(147deg 56% 32%) 56%,
+            hsl(147deg 56% 29%) 65%,
+            hsl(146deg 56% 25%) 76%,
+            hsl(146deg 55% 22%) 100%);
+    text-align: center;
+    padding: 7px 0px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.418);
+
+}
+
+.titulo {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.411);
+    color: white;
+    padding: 20px 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: -1px;
+
+}
+
+.paragrafo1 {
+    color: white;
+    padding: 0px 0;
+    font-family: 'Arial Light Regular', Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.39);
+    line-height: 24px;
+}
+
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu ul li {
+    padding: 0 16px;
+}
+ul li a{
+    color: white;
+}
+
+.branco{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 15px 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.452);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 200;
+}
+main > h1{
+    font-family:'idroid';
+    font-size: 27px;
+    padding: 10px 0 0 0;
+    color: rgb(25, 87, 52);
+}
+main > p{
+    padding: 20px 0;
+}
+
+h2{
+    font-family:'idroid';
+    padding: 0px 0;
+    color: rgb(25, 87, 52);
+    background-image: linear-gradient( to right, #84e1ac4d, white);
+    
+}
+
+
+a{
+    color: rgba(25, 87, 52, 0.719);
+    font-weight: 800;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+picture img{ 
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+.video{
+    background-color:rgb(25, 87, 52) ;
+    margin-bottom: 30px;
+    margin: 0 15%;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 38%;
+    /* background-color: rgb(25, 87, 52);
+    margin:auto;
+    width: 70%; */
+}
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90% ;
+    height: 90% ;
+    /* display: flex;
+    flex-direction: row;
+    margin: auto;
+padding: 20px 0; */
+}
+section{
+    border-radius: 0 0 15px 15px;
+    padding: 20px 20px;
+    
+}
+h3{
+    background-color: rgb(46, 168, 102);
+    padding: 8px 8px;
+    color: white;
+    border-radius: 12px 12px 0 0 ;
+    box-shadow: 1px 4px 7px 0px rgba(0, 0, 0, 0.308);
+}
+.tabela{
+background-color: #c4ead5;
+padding: 15px 15px 25px 15px;
+border-radius: 0px 0px 12px 12px ;
+box-shadow: 1px 4px 7px 0px rgba(0, 0, 0, 0.308);
+}
+.tabela ul{
+display: flex;
+padding: 15px 0;
+text-indent: 0;
+}
+
+.l1{
+    padding-right: 100px;
+    text-align: left;
+}
+.l2{
+    padding-left: 6px;
+    text-align: left;
+}
+
+.tabela ul a{
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+    
+}
+.tabela ul a:hover{
+ color: rgba(0, 170, 9, 0.548);
+}
+.tabela .tabp p{
+    padding:10px 0px
+}
+.final{ 
+    padding: 20px 0px;
+}
+footer{ 
+    background-color: rgb(25, 87, 52);
+    margin-top: 20px;
+    padding: 8px 0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer a{
+    color: white;
+    font-weight: 700;
+
+}
